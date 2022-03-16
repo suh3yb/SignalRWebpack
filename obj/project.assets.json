@@ -132,9 +132,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Microsoft.TypeScript.MSBuild >= 4.6.2"
-    ]
+    "net6.0": ["Microsoft.TypeScript.MSBuild >= 4.6.2"]
   },
   "packageFolders": {
     "/Users/suheybcoskun/.nuget/packages/": {}
@@ -148,12 +146,8 @@
       "packagesPath": "/Users/suheybcoskun/.nuget/packages/",
       "outputPath": "/Users/suheybcoskun/Projects/Personal/SignalRWebpack/obj/",
       "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "/Users/suheybcoskun/.nuget/NuGet/NuGet.Config"
-      ],
-      "originalTargetFrameworks": [
-        "net6.0"
-      ],
+      "configFilePaths": ["/Users/suheybcoskun/.nuget/NuGet/NuGet.Config"],
+      "originalTargetFrameworks": ["net6.0"],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -164,9 +158,7 @@
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "warnAsError": ["NU1605"]
       }
     },
     "frameworks": {
@@ -180,14 +172,7 @@
             "version": "[4.6.2, )"
           }
         },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
+        "imports": ["net461", "net462", "net47", "net471", "net472", "net48"],
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
