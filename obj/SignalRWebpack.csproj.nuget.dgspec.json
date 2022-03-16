@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.TypeScript.MSBuild": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

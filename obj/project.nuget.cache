@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TwmK6boL0jlJ2aMEBOkA3N4JFV/gEYDH3eEv2etMUibJfCyWLLa1sULVgM/a3bBJYva4oB77F/4tJSFEcbQPRw==",
+  "dgSpecHash": "+mjuzRBdaUXjKMAbUBUDD0tw8CxNvI2/uP/LGM3uz8+31iOVP7kghqajnxMe5DPAid9hnL3OJRhZvy/zICRFAA==",
   "success": true,
   "projectFilePath": "/Users/suheybcoskun/Projects/Personal/SignalRWebpack/SignalRWebpack.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/suheybcoskun/.nuget/packages/microsoft.typescript.msbuild/4.6.2/microsoft.typescript.msbuild.4.6.2.nupkg.sha512"
+  ],
   "logs": []
 }
