@@ -8,29 +8,64 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.heading {
+  margin-right: 0.5em;
+  font-size: 1em;
 }
 
 .input-zone {
-  align-items: center;
   display: flex;
   flex-direction: row;
-  margin: 10px;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .input-zone-input {
   flex: 1;
-  margin-right: 10px;
+  margin-right: 1rem;
+}
+
+.input-zone-label {
+  margin-right: 0.5rem;
 }
 
 .message-author {
   font-weight: bold;
 }
 
+.message {
+  margin-left: 1rem;
+  white-space: pre-line;
+}
+
+.server-message {
+  color: red;
+}
+
 .messages {
   border: 1px solid #000;
-  margin: 10px;
   max-height: 300px;
   min-height: 300px;
   overflow-y: auto;
+  margin-bottom: 1rem;
   padding: 5px;
 }
