@@ -5,6 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run release && dotnet run",
+    "start:clean": "rm -rf wwwroot && rm -f src/index.js && npm run start",
     "build": "webpack --mode=development --watch",
     "release": "webpack --mode=production",
     "publish": "npm run release && dotnet publish -c Release",
